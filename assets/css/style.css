@@ -1,3 +1,4 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,11 +16,13 @@ body {
     color: #ffffff;
 }
 
+/* header id selector */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the 'seo' in 'Horiseon' t a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -50,7 +53,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* background image styling */
+.bg-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
